@@ -22,9 +22,9 @@ export default function AuthPg() {
         <aside className="w-1/2 h-[500px] rounded-r-lg bg-gray px-8 pt-10 pb-20 dark:bg-darkBlue">
           <nav className="flex justify-end mb-16">
             <a onClick={() => setToggleForm(false)} 
-                className={`py-1 px-3 text-sm font-medium border ${toggleForm ? "bg-white text-darkBlue dark:bg-darkBlue dark:text-white":"bg-darkBlue text-white dark:bg-white dark:text-darkBlue"} border-darkBlue cursor-pointer`}>Login</a>
+                className={`py-1 px-3 text-sm font-medium border dark:border-white ${toggleForm ? "bg-white text-darkBlue dark:bg-darkBlue dark:text-white":"bg-darkBlue text-white dark:bg-white dark:text-darkBlue"} border-darkBlue cursor-pointer`}>Login</a>
             <a onClick={() => setToggleForm(true)} 
-                className={`py-1 px-3 text-sm font-medium border border-darkBlue cursor-pointer ${toggleForm ? "bg-darkBlue text-white dark:bg-white dark:text-darkBlue": "bg-white text-darkBlue dark:bg-darkBlue dark:text-white"}`}>Register</a>
+                className={`py-1 px-3 text-sm font-medium border border-darkBlue cursor-pointer dark:border-white ${toggleForm ? "bg-darkBlue text-white dark:bg-white dark:text-darkBlue": "bg-white text-darkBlue dark:bg-darkBlue dark:text-white"}`}>Register</a>
           </nav>
           {!toggleForm && <LoginForm />}
           {toggleForm && <SignUpForm />}
