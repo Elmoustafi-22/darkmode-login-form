@@ -1,6 +1,5 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## DARKMODE LOGIN FORM
 ---
-
 #### _A darkmode login form built with react, next.js and tailwindCss_
+
+<img src="https://github.com/Elmoustafi-22/darkmode-login-form/raw/refs/heads/main/public/image.jfif" alt="Screenshot of the webpage." width="600"/>
